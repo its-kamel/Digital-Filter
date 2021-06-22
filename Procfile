@@ -1,1 +1,1 @@
-web: bokeh serve --port=$PORT --allow-websocket-origin=digital-filter.herokuapp.com --address=0.0.0.0 --use-xheaders dfilter.py
+web: bokeh serve --port=$PORT --num-procs=0 --allow-websocket-origin=filterdig.herokuapp.com --address=0.0.0.0 --use-xheaders dfilter.py
