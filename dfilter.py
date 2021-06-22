@@ -8,9 +8,9 @@ from bokeh.io import output_file, curdoc
 from bokeh.models import Circle,TapTool, CustomJS, ColumnDataSource, TextInput, HoverTool,Button,CheckboxButtonGroup, BoxEditTool, renderers
 from bokeh.models.tools import PointDrawTool
 from bokeh.models.widgets.groups import CheckboxGroup
-from bokeh.plotting import figure, show, reset_output
+from bokeh.plotting import figure
 from bokeh.events import DoubleTap,ButtonClick, MouseLeave, PanStart, Tap, PanEnd
-from bokeh.layouts import grid, row,column,layout, gridplot
+from bokeh.layouts import  row,column,layout
 from Test import *
 from AllPassFilter import *
 
