@@ -1,6 +1,7 @@
 # Bokeh Libraries
 from functools import partial
 from bokeh.models.layouts import Spacer
+from bokeh.models.markers import Cross
 from bokeh.models.widgets.markups import Div
 from AllPassFilter import AllPass
 from bokeh.io import output_file, curdoc
@@ -67,8 +68,8 @@ zeros.nonselection_glyph = nonselected_circle
 
 
 # Selection
-selected_pole = Scatter(marker='cross', fill_alpha=1, fill_color='red', line_color='red',line_width=3)
-nonselected_pole = Scatter(marker='cross', fill_alpha=0, line_color='blue', line_width=3)
+selected_pole = Cross( fill_alpha=1, fill_color='red', line_color='red',line_width=3)
+nonselected_pole = Cross( fill_alpha=0, line_color='blue', line_width=3)
 poles.selection_glyph = selected_pole
 poles.nonselection_glyph = nonselected_pole
 
