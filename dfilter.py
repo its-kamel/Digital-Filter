@@ -6,7 +6,6 @@ from bokeh.models.widgets.markups import Div
 from AllPassFilter import AllPass
 from bokeh.io import output_file, curdoc
 from bokeh.models import Circle,TapTool, CustomJS, ColumnDataSource, TextInput, HoverTool,Button,CheckboxButtonGroup, BoxEditTool, renderers
-from bokeh.models.glyphs import Scatter
 from bokeh.models.tools import PointDrawTool
 from bokeh.models.widgets.groups import CheckboxGroup
 from bokeh.plotting import figure, show, reset_output
