@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 from Node import Node 
 from math import inf, pi, sin, cos, sqrt, tan, atan, atan2
-from scipy.signal import zpk2tf
 import matplotlib.gridspec as gridspec
 from AllPassFilter import AllPass
 import random
